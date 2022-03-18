@@ -124,9 +124,9 @@ def get_file_or_folder_age(path):
 
 #hint4
 
-ctime = os.stat(path).st_ctime
+	ctime = os.stat(path).st_ctime
 
-return ctime
+	return ctime
 
 if __name__ == '__main__':
 	main()
